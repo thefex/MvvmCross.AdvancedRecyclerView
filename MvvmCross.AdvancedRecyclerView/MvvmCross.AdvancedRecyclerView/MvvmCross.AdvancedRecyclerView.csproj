@@ -90,9 +90,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NonExpandable\Adapters\DraggableMvxRecyclerAdapterDecorator.cs" />
     <Compile Include="NonExpandable\Adapters\MvxAdvancedRecyclerAdapterBuilder.cs" />
     <Compile Include="NonExpandable\Adapters\SwipeableMvxAdapterDecorator.cs" />
     <Compile Include="NonExpandable\MvxAdvancedRecyclerView.cs" />
+    <Compile Include="NonExpandable\ViewHolders\DraggableMvxRecyclerViewHolderDecorator.cs" />
     <Compile Include="NonExpandable\ViewHolders\MvxAdvancedRecyclerViewHolderBuilder.cs" />
     <Compile Include="NonExpandable\ViewHolders\SwipeableMvxRecyclerViewHolderDecorator.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
