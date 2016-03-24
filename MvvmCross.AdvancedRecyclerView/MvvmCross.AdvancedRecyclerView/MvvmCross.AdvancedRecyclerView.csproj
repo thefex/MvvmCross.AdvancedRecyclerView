@@ -90,7 +90,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NonExpandable\Adapters\DraggableMvxRecyclerAdapterDecorator.cs" />
+    <Compile Include="NonExpandable\Adapters\Drag\BuilderRelated\DraggableMvxRecyclerAdapterDecorator.cs" />
+    <Compile Include="NonExpandable\Adapters\Drag\ItemMovedProperties.cs" />
+    <Compile Include="NonExpandable\Adapters\Drag\MvxDraggableItemAdapter.cs" />
     <Compile Include="NonExpandable\Adapters\MvxAdvancedRecyclerAdapterBuilder.cs" />
     <Compile Include="NonExpandable\Adapters\SwipeableMvxAdapterDecorator.cs" />
     <Compile Include="NonExpandable\MvxAdvancedRecyclerView.cs" />
@@ -109,6 +111,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Expandable\" />
+    <Folder Include="NonExpandable\Adapters\Drag\Configuration\" />
+    <Folder Include="NonExpandable\Configuration\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

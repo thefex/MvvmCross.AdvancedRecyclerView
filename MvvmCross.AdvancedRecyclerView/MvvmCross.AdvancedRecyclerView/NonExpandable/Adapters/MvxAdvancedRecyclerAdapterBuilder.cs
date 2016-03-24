@@ -1,7 +1,6 @@
-using System.Collections.Generic;
 using Com.H6ah4i.Android.Widget.Advrecyclerview.Draggable;
 using Com.H6ah4i.Android.Widget.Advrecyclerview.Swipeable;
-using MvvmCross.Binding.Droid.Views;
+using MvvmCross.AdvancedRecyclerView.NonExpandable.Adapters.Drag.BuilderRelated;
 using MvvmCross.Droid.Support.V7.RecyclerView;
 
 namespace MvvmCross.AdvancedRecyclerView.NonExpandable.Adapters

@@ -7,7 +7,7 @@ using MvvmCross.Droid.Support.V7.RecyclerView;
 using MvvmCross.Droid.Support.V7.RecyclerView.ItemTemplates;
 using Object = Java.Lang.Object;
 
-namespace MvvmCross.AdvancedRecyclerView.NonExpandable.Adapters
+namespace MvvmCross.AdvancedRecyclerView.NonExpandable.Adapters.Drag.BuilderRelated
 {
     internal class DraggableMvxRecyclerAdapterDecorator : Object, IMvxRecyclerAdapter, IDraggableItemAdapter
     {
